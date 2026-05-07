@@ -1,0 +1,1 @@
+g++ -O2 -Wall problem.cpp -o r && ./r < in.txt > out.txt
