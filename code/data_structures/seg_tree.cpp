@@ -30,6 +30,7 @@ struct SegmentTree {
                 r--; resR =st[r]+ resR; 
             } 
         }
+        //[l,r)
         return resL+ resR;
     }
 };
