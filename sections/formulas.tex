@@ -1,0 +1,41 @@
+\section{Fórmulas}
+\subsection{Fórmulas de sumatorias}
+
+Estas identidades permiten calcular sumas comunes en tiempo constante.
+
+\[
+\begin{aligned}
+\sum_{i=1}^{n} 1
+    &= n \\[4pt]
+\sum_{i=1}^{n} i
+    &= \frac{n(n+1)}{2} \\[4pt]
+\sum_{i=1}^{n} i^2
+    &= \frac{n(n+1)(2n+1)}{6} \\[4pt]
+\sum_{i=1}^{n} i^3
+    &= \left(\frac{n(n+1)}{2}\right)^2
+\end{aligned}
+\]
+
+\paragraph{Progresión aritmética}
+Para una sucesión que comienza en $a$ y aumenta de $d$ en $d$:
+
+\[
+\sum_{i=0}^{n-1}(a+id)
+= \frac{n}{2}\left(2a+(n-1)d\right).
+\]
+
+\paragraph{Progresión geométrica}
+\[
+\sum_{i=0}^{n-1} r^i =
+\begin{cases}
+n, & r=1,\\[4pt]
+\dfrac{r^n-1}{r-1}, & r\ne 1.
+\end{cases}
+\]
+
+\paragraph{Sumas útiles en combinatoria}
+\[
+\sum_{k=0}^{n}\binom{n}{k}=2^n,
+\qquad
+\sum_{k=0}^{n}k\binom{n}{k}=n2^{n-1}.
+\]
