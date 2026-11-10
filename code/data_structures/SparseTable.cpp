@@ -20,7 +20,7 @@ struct SparseTable{
         }
     }
     int query(int l, int r){
-        int j=log2[r-l+1];
+        int j=log2[r-l+1]; //[l,r]
         return max(st[l][j],st[r-(1<<j)+1][j]);
     }
 };

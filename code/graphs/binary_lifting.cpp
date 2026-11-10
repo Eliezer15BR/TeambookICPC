@@ -13,7 +13,7 @@ void sol(){
             up[i][j]=ant;
         }
     }
-    function<int(int,int)> go_up=[&](int x, int k){
+    auto go_up=[&](int x, int k)->int{
         int current=x;
         int aux=1;
         while(k){
