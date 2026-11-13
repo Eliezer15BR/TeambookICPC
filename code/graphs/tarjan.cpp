@@ -31,9 +31,4 @@ void sol(){
     for(int i=1;i<=n;i++){
         if(tin[i]==-1) dfs(dfs,i);
     }
-    cout<<comp<<"\n";
-    for(int i=1;i<=n;i++){
-        cout<<id[i]<<" ";
-    }
-    cout<<"\n";
 }
